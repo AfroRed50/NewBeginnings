@@ -1,6 +1,4 @@
-/* ==================================
-    Base Element Styles
-    ================================= */
+/* ==== Base CSS ==== */
 
 body {
     line-height: 1.6;
@@ -12,31 +10,47 @@ a{
     text-decoration: none;
 }
 
-/* ==================================
-    Base Layout Styles
-    ================================= */
-
-/* ---- Navigation ---- */
-
 .name {
     margin: 0; 
 }
-/* ---- Layout Containers ---- */
 
 .container {
     width: 70%;
     margin: 0 auto;
 }
 .main-header {
+    text-align: center;
     background: #0f1abe;
     padding: 1em 0;
 }
 
 .main-footer {
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;
     background: #ff5709;
 }
 
-/* ---- Page Elements ---- */
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
 
+img {
+    max-width: 400px;
+}
+
+/* ==== Media Querries ==== */
+
+@media ( min-width: 769px ) {
+
+    li {
+        display: inline;
+        padding: 16px;
+    }
+
+    img {
+        max-width: 800px;
+    }
+}
