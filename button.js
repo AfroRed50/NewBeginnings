@@ -1,5 +1,6 @@
 /* ==== More/Less Button Function ==== */
 
+// 2nd Paragraph
 function buttonClick1() {
     var x = document.getElementById("shrink");
     if (x.style.display === "none") {
@@ -9,6 +10,7 @@ function buttonClick1() {
     }
 }
 
+// Main Address
 function buttonClick2() {
     var x = document.getElementById("address_shrink");
     if (x.style.display === "none") {
