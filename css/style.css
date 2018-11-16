@@ -34,11 +34,20 @@ a{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 70%;
+    width: 50%;
 }
 
 img {
     max-width: 400px;
+    padding: 1%;
+}
+
+/* ---- Clearfix ---- */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* ==== Media Querries ==== */
@@ -51,6 +60,11 @@ img {
     }
 
     img {
-        max-width: 800px;
+        max-width: 600px;
+        float: left;
     }
+}
+
+@media (min-width: 1025px) {
+    
 }
